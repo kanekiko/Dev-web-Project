@@ -1,0 +1,31 @@
+body {
+    background-color: antiquewhite;
+  }
+  nav {
+    position: sticky;
+    top: 0;
+  }
+  
+  nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(73, 48, 52);
+  }
+  
+  nav li{
+    float: left;
+  }
+  
+  nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+    font-size: 150%;
+    font-variant: small-caps;
+    font-family: copperplate gothic; 
+  }
+  
+  nav li a:hover{
+    background-color: rgb(26, 17, 18);
+  }
