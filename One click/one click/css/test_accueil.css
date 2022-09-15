@@ -1,0 +1,124 @@
+body {
+  background: url("../fond/bois.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+nav {
+  position: sticky;
+  top: 0;
+}
+
+nav ul{
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li{
+  float: left;
+}
+
+nav li a{
+  display: block;
+  text-decoration: none;
+  padding: 30px;
+  color: white;
+  font-size: 150%;
+  font-variant: small-caps;
+  font-family: copperplate gothic; 
+}
+
+nav li a:hover{
+  background-color: black;
+}
+
+section.high{
+  background: url("../fond/onepiece.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 570px;
+}
+
+section.high h1{
+  font-family: Montserrat, "sans-serif";
+  font-variant: small-caps;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+section.high p{
+  font-size: 150%;
+  font-family: copperplate gothic;
+  font-variant: small-caps;
+  font-style: italic;
+  color: #6e3300;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  background: #c4ba94;
+}
+
+section.banner {
+  position:relative;
+  top: 65px;
+  background: url("../fond/boisclair.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 750px;
+}
+
+section.banner h1{
+  font-size: 300%;
+  font-variant: small-caps;
+  font-family: copperplate gothic;
+  color: white;
+  text-align: center;
+  background:  #333;
+}
+
+section.banner table tbody tr td.image {
+  padding: 100px;
+  padding-bottom: 20px;
+}
+
+section.banner table tbody tr td.text{
+  text-align: center;
+  font-family: copperplate gothic;
+  font-variant: small-caps;
+}
+
+section.newsletter{
+  background: #750000;
+  font-size: 150%;
+  font-family: copperplate gothic;
+  font-variant: small-caps;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 80px;
+  bottom: 80px;
+  float: middle;
+}
+p {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}

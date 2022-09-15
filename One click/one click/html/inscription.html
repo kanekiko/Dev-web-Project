@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/inscription.css" />
+    <title>One Click</title>
+
+  </head>
+
+  <body>
+
+    <header>
+      <img src="oneclick.png" alt="Une photo" width="250" height="100" />
+      <nav>
+        <ul>
+          <li class="btn"><a href="test_accueil.html">Accueil</a></li>
+          <li class="btn"><a href="categorie.html">Catégories de service</a></li>
+          <li class="btn"><a href="inscrit_co.html">Inscription / Connexion</a></li>
+          <li class="btn"><a href="contact.html">Contactez-Nous!</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+		<div class="inscrivez-vous">
+			<h1>Inscrivez-vous</h1>
+			<p>Crées ton compte, ton annonce en One Click ;) !</p>
+			<form method="post" action="profil.php">
+				<div>
+					<label for="pseudo">Votre Pseudo</label>
+					<input type="text" id="pseudo" name="pseudo"
+					placeholder="Soyez créatif ;)" required>
+				</div>
+				<div>
+					<label for="email">Votre e-mail</label>
+					<input type="email" id="email" name="email" 
+					placeholder="monadresse@mail.com" required> 
+				</div>
+				<div>
+					<label for="mdp">Mot de passe</label>
+					<input type="password" id="mdp" name="mdp" required>
+				</div>
+				<div>
+					<button type="submit">S'inscrire</button>
+				</div>
+			</form>
+		</div>
+    </main>
+  </body>
+</html>

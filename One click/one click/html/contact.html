@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <title>One Click</title>
+
+  </head>
+
+  <body>
+
+    <header>
+      <img src="oneclick.png" alt="Une photo" width="250" height="100" />
+      <nav>
+        <ul>
+          <li class="btn"><a href="test_accueil.html">Accueil</a></li>
+          <li class="btn"><a href="categorie.html">Barres de Recherche</a></li>
+          <li class="btn"><a href="inscrit_co.html">Inscription / Connexion</a></li>
+          <li class="btn"><a href="contact.html">Contactez-Nous!</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+		<div class="contactez-nous">
+			<h1>Contactez-nous</h1>
+			<p>Ecrivez-nous en One Click ;) !</p>
+			<form method="post" action="contact.php">
+				<div>
+					<label for="email">Votre e-mail</label>
+					<input type="email" id="email" name="email" 
+					placeholder="monadresse@mail.com" required> 
+				</div>
+				<div>
+					<label for="sujet">Quel est le sujet de votre message ?</label>
+					<select name="activite">
+						<option value="remarque">J'ai une remarque à faire</option>
+						<option value="aide">Je n'arrive pas à m'inscrire / me connecter</option>
+						<option value="tech">J'ai un problème technique</option>					
+						<option value="sponsor">Demande de sponsoring</option>		
+						<option value="autre">Autre</option>
+
+					</select>
+				</div>
+				<div>
+					<label for="message">Votre Message</label>
+					<textarea id="message" name="message" placeholder="Bonjour..." required></textarea>
+				</div>
+				<div>
+					<button type="submit">Envoyez</button>
+				</div>
+			</form>
+		</div>
+    </main>
+  </body>
+</html>

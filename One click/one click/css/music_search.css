@@ -1,0 +1,67 @@
+body {
+  background: url("../search/music.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+nav.h {
+  position: sticky;
+  top: 0;
+}
+
+nav.h ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav.h li{
+  float: right;
+}
+
+nav.h li a{
+  display: block;
+  text-decoration: none;
+  padding: 30px;
+  color: grey;
+  font-size: 110%;
+  font-variant: small-caps;
+  font-family: copperplate gothic; 
+}
+
+div {
+	position: relative;
+	top: 85px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div form input {
+	width: 768px;
+    height: 34px;
+}
+
+nav.foot {
+  position: absolute;
+  bottom: 0;
+}
+
+nav.foot ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav.foot li{
+  float: left;
+}
+
+nav.foot li a{
+  display: block;
+  text-decoration: none;
+  padding: 30px;
+  color: grey;
+  font-size: 110%;
+  font-variant: small-caps;
+  font-family: copperplate gothic; 
+}
