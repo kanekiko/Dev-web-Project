@@ -1,0 +1,26 @@
+dt {
+  border-bottom: 2px solid black;
+  font-weight: bold;
+  clear: both; /* pour que le float de l'adresse ne se répercute pas sur l'affichage de la prochaine personne */
+}
+
+.nom, .ville {
+  font-variant: small-caps;
+}
+
+.nom, .prenom {
+  text-transform: capitalize; /* en plus */
+}
+
+dl{
+  padding: 1em 20%; /* 1em pour top et bottom, 20% pour left et right*/
+}
+
+dd.adresse {
+  float: left; /* pour mettre l'adresse à gauche, le tel et l'email peuvent ainsi être placés à droite*/
+}
+
+dd.telephone, dd.email {
+  padding-right: 2em;
+  text-align: right;
+}
